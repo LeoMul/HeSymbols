@@ -1,9 +1,11 @@
 # HeSymbols
 
 The Hamiltonian for a He-like system is,
+
 $$
 \mathcal{H} = -\frac{1}{2} \left(\nabla^2_1 + \nabla^2_2 \right) - \frac{Z}{r_1}- \frac{Z}{r_2} + \frac{1}{r_{12}},
 $$
+
 in Hartree atomic units. 
 
 We use symbolic methods (SymPy) (and some numerical optimization from SciPy) to calculate variational wave functions for the ground-state of this hamiltonian. 
